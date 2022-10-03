@@ -1,4 +1,4 @@
-name: "Terraform"
+name: "Terraform Plan Run Only"
 
 on:
   push:
