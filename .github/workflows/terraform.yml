@@ -3,7 +3,7 @@ name: "Terraform"
 on:
   push:
     branches:
-      - "!main"
+      - "5-github-action"
   pull_request:
 
 jobs:
