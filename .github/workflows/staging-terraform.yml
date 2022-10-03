@@ -3,12 +3,12 @@ name: "Terraform"
 on:
   push:
     branches:
-      - "5-github-action"
+      - '!main'
   pull_request:
 
 jobs:
   terraform:
-    name: "Terraform"
+    name: Terraform
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
