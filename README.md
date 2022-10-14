@@ -11,16 +11,14 @@ GitHub action using Terraform Cloud as the backend.
 
 ### Feature Requests
 
-User will create a feature branch and make changes. As they commit to the feature branch GitHub actions will run a terraform validate and plan. The plan will be validated against TFCB.
-
-TFCB will return the results back to GitHub actions.
+The user will create a feature branch and make changes. As they commit to the feature branch, GitHub actions will run a terraform validate and plan.
 
 ![feature_request](images/feature_request.jpeg)
 
 ### Merge into main
 
-Once the user is happy with their feature request they will create a pull request to merge the changes into main.
+Once the user is happy with their feature request, they will create a pull request to merge the changes into the main branch.
 
-Upon approval of merge a Terraform apply will be ran to ensure continous development.
+Upon approval of the pull request, a Terraform apply runs to ensure continuous development.
 
 ![main_pr](images/pr_main.jpeg)
